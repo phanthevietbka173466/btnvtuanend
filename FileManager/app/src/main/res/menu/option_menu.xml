@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_back_directory"
+        android:icon="@drawable/ic_baseline_arrow_back_ios_24"
+        android:title="@string/backdirectory"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_add_folder"
+        android:icon="@drawable/ic_baseline_create_new_folder_24"
+        android:title="@string/addfolder"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_add_file"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="@string/addfile"
+        app:showAsAction="always"/>
+
+
+</menu>
